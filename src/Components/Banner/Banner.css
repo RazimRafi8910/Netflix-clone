@@ -1,0 +1,59 @@
+
+.navbar{
+    background-image:linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%), url('https://assets.nflxext.com/ffe/siteui/vlv3/7ca5b7c7-20aa-42a8-a278-f801b0d65fa1/fb548c0a-8582-43c5-9fba-cd98bf27452f/IN-en-20240326-popsignuptwoweeks-perspective_alpha_website_large.jpg');
+    background-size:cover ;
+    border-bottom: 8px;
+    display: block;
+    min-width: 90vw;
+    min-height: 100vh;
+    border-color: rgb(55, 55, 55);
+    border-style: solid;
+}
+
+.banner{
+    padding: 9rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-title{
+    color: red;
+    font-weight: bold;
+}
+
+.lanButton{
+    padding-inline: 20px;
+    margin-inline:10px ;
+    background: transparent;
+}
+
+.signButton{
+    margin-inline: 10px;
+    background-color: red;
+    border: none;
+}
+
+.tittle{
+   text-align: center;
+   font-size: large;
+}
+
+.emailInput{
+    min-width: 360px;
+    padding-inline: 15px;
+    padding-block: 12px;
+    background-color: black;
+    opacity: 0.5;
+    border: 1px;
+    border-style: solid;
+}
+
+.signBtn{
+    margin-left: 15px;
+    padding-inline: 18px;
+    padding-block: 7px;
+    background-color: rgb(249, 20, 20);
+    border: none;
+    border-radius: 5px;
+}

@@ -1,0 +1,13 @@
+.AccordContainer{
+    background-color:black;
+    min-width: 90vw;
+    min-height: 90vh;
+    padding-top: 45px;
+    /* padding-inline: 60px; */
+    text-align: center;
+}
+
+.head{
+    font-size: 50px;
+    font-weight: 900;
+}

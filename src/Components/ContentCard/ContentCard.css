@@ -1,0 +1,29 @@
+.tvsection{
+    padding-block: 40px;
+    background-color: black;
+    min-width: 90vw;
+    min-height: 60vh;
+    border-bottom: 8px;
+    border-color: rgb(55, 55, 55);
+    border-style: solid;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tittle{
+    text-align: left;
+}
+
+.tittle h1{
+    font-weight: 900;
+}
+
+.tvImg{
+    max-width: 100%;
+    width: auto;
+    height: auto;
+}
