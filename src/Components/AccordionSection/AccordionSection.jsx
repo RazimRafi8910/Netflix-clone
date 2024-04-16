@@ -27,8 +27,8 @@ function AccordionSection() {
   return (
     <div className="AccordContainer pb-3">
       <h1 className="head">Frequently Asked Questions</h1>
-      {data.map((accordData, index) => (
-        <Accordion key={index} qustion={accordData.qustion} ans1={accordData.ans1} ans2={accordData.ans2} />
+      {data.map(({qustion,ans1,ans2}, index) => (
+        <Accordion key={index} qustion={qustion} ans1={ans1} ans2={ans2} />
       ))}
       <div className="inputContainer mt-4">
         <p className="fs-4">Ready to watch? Enter your email to create or restart your membership.</p>
